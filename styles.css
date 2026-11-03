@@ -1,0 +1,44 @@
+:root{font-family:system-ui,-apple-system,"Segoe UI",sans-serif;color:#182c26;background:#f2f6f3;font-size:18px;line-height:1.5}*{box-sizing:border-box}body{margin:0}button,input,select{font:inherit}button,select,input{min-height:48px}button{cursor:pointer;border:0;border-radius:12px;padding:14px 18px;font-weight:700;background:#12523f;color:#fff;width:100%}button:hover{filter:brightness(1.09)}button:focus-visible,input:focus-visible,select:focus-visible,a:focus-visible{outline:4px solid #b56a08;outline-offset:3px}.secondary{background:#e5f0eb;color:#103d31;border:2px solid #236b55}.danger{background:#8a1d28;color:#fff}.top{background:#124f3e;color:white;padding:16px max(16px,calc((100vw - 1100px)/2));display:flex;justify-content:space-between;align-items:center;gap:12px}.brand{font-size:1.4rem;font-weight:800}.tag{font-size:.7rem;letter-spacing:.08em;border:1px solid #fff;padding:5px 8px;border-radius:6px}.notice{background:#fff2cb;color:#503800;text-align:center;padding:12px 18px;font-weight:600}.layout{max-width:1100px;margin:28px auto;padding:0 16px;display:grid;grid-template-columns:minmax(0,1.4fr) minmax(260px,.8fr);gap:24px;align-items:start}.panel,.tools{background:#fff;border-radius:20px;box-shadow:0 4px 22px #143d2920;padding:26px}.panel{min-height:490px}.tools h2{font-size:1.1rem;margin:0 0 16px}.tools label:not(.switch){display:block;font-weight:700;margin-top:16px;margin-bottom:6px}.tools select,.tools input:not([type=checkbox]){width:100%;border:2px solid #718c7e;border-radius:10px;padding:10px;background:white;color:#172b23}.tools button{margin-top:12px}.switch{display:flex;align-items:center;gap:12px;margin:12px 0}.switch input{width:25px;height:25px;min-height:25px;accent-color:#12523f}.hint{font-size:.83rem;color:#4d6058}.eyebrow{font-size:.83rem;color:#365a4a;text-transform:uppercase;letter-spacing:.08em;font-weight:800}h1{font-size:1.75rem;line-height:1.2;margin:12px 0 16px}p{margin:10px 0 18px}.stack{display:grid;gap:14px}.task{display:flex;align-items:center;justify-content:center;gap:10px;min-height:74px}.balance{background:#e7f2eb;border-radius:16px;padding:24px;margin:22px 0}.amount{font-size:2.25rem;font-weight:800}.row{display:flex;gap:12px;margin-top:22px}.row>*{flex:1}.code{width:100%;text-align:center;letter-spacing:.25em;font-size:1.7rem;font-weight:700;border:3px solid #54796a;border-radius:12px;padding:12px}.practice{border:2px dashed #628e7c;border-radius:12px;padding:14px;margin:16px 0;background:#f5faf6;font-weight:700}.error{color:#9d1925;font-weight:700}.success{color:#135b3e;font-weight:800}.finger{font-size:5rem;text-align:center;margin:16px 0}.small{font-size:.85rem}.skip{position:absolute;left:-10000px;top:auto}.skip:focus{left:10px;top:10px;z-index:20;background:#fff;padding:12px}.hidden{display:none!important}footer{text-align:center;padding:20px;color:#43584d}body.large{font-size:21px}body.contrast{background:#fff;color:#000}body.contrast .panel,body.contrast .tools{border:3px solid #000;box-shadow:none}body.contrast button:not(.danger){background:#003b29;color:#fff;border:2px solid #003b29}body.contrast .notice{background:#ffeb8a;color:#000}body.contrast .hint{color:#222}@media(max-width:760px){.layout{grid-template-columns:1fr;margin:14px auto}.panel,.tools{padding:20px}.top{padding:14px}.tag{font-size:.57rem}.row{flex-direction:column}}@media(prefers-reduced-motion:reduce){*{scroll-behavior:auto!important;animation:none!important;transition:none!important}}
+
+/* Lesotho-inspired visual identity; generated illustrative portraits are decorative. */
+body{position:relative;isolation:isolate;min-height:100vh;background:#dce8d7}
+.heritage-background{position:fixed;inset:0;z-index:-1;pointer-events:none;background:linear-gradient(180deg,#b8d8ef 0%,#c6d7b6 56%,#71936a 100%)}
+.heritage-photo{position:absolute;top:0;bottom:0;width:33%;background-size:cover;background-repeat:no-repeat}
+.heritage-left{left:0;background-image:url('basotho-elder-left.jpg');background-position:center}
+.heritage-right{right:0;background-image:url('basotho-elder-right.jpg');background-position:center}
+.heritage-background:after{content:'';position:absolute;inset:0;background:linear-gradient(90deg,transparent 0%,#0a241526 26%,#f4f6ef38 43%,#f4f6ef38 57%,#0a241526 74%,transparent 100%)}
+.top{max-width:940px;margin:20px auto 0;border-radius:24px 24px 0 0;background:#fffefab3;color:#07183e;padding:22px 28px;box-shadow:0 8px 30px #102f2740}
+.brand{display:flex;align-items:center;gap:13px;font-size:2rem;line-height:1.05;color:#07183e}
+.brand small{display:block;color:#075a3c;font-size:.46em;letter-spacing:.01em;margin-top:5px}
+.mountain-mark{color:#075a3c;font-size:2.4rem;transform:rotate(0deg);font-weight:900}
+.tag{color:#173b5a;border-color:#b6c8d4}
+.notice{max-width:940px;margin:auto;background:#e5edf7cc;color:#173b5a;font-size:.84rem}
+.layout{max-width:940px;margin:0 auto 20px;padding:20px;background:#fffefab3;border-radius:0 0 24px 24px;grid-template-columns:minmax(0,1.3fr) minmax(255px,.85fr);gap:18px;box-shadow:0 15px 45px #102f2740}
+.panel,.tools{background:#ffffffc7;border:1px solid #d4ded5;box-shadow:none}
+.panel{min-height:520px}
+button{background:#075a3c;border-radius:18px;min-height:64px}
+button.secondary{background:#fff;color:#07183e;border:2px solid #a0b2bd}
+.task{min-height:90px;font-size:1.14em}
+.eyebrow{color:#075a3c}
+footer{max-width:940px;margin:auto;background:#fffefab3;border-radius:14px;padding:12px 20px;color:#183c31;font-weight:600}
+.photo-credit{font-size:.75rem;font-weight:400}
+@media(max-width:760px){.heritage-photo{width:50%;opacity:1}.heritage-background:after{background:#f2f4ea20}.top{margin:8px 8px 0;padding:16px;border-radius:20px 20px 0 0}.brand{font-size:1.5rem}.notice{margin:0 8px}.layout{margin:0 8px 12px;padding:12px;gap:12px}.panel,.tools{padding:18px}footer{margin:0 8px 12px}.tag{font-size:.5rem}}
+
+/* Keep the optional high-contrast display fully opaque for readability. */
+body.contrast .top,body.contrast .layout,body.contrast .panel,body.contrast .tools,body.contrast footer{background:#fff}
+
+/* Large, clear uppercase lettering for older readers. */
+body{text-transform:uppercase;font-size:20px;line-height:1.6;font-weight:600;color:#10271d}
+body.large{font-size:24px}
+button,input,select{font-weight:750;text-transform:uppercase}
+h1{font-size:2rem;line-height:1.3;font-weight:850}
+.tools h2{font-size:1.25rem;font-weight:800}
+.hint,.small,.notice{font-size:1rem;color:#18382a}
+.eyebrow{font-size:1rem;letter-spacing:.04em;color:#06452e}
+.tag{font-size:.8rem;font-weight:800;letter-spacing:.03em}
+.brand small{font-size:.55em}
+.photo-credit{font-size:.9rem;font-weight:600}
+.panel,.tools{background:#fffffff0}
+button{line-height:1.4;white-space:normal;overflow-wrap:anywhere}
+.tools{min-width:0}
+@media(max-width:760px){.tag{font-size:.7rem}.top{flex-wrap:wrap}h1{font-size:1.7rem}}

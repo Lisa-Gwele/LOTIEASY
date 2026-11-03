@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#124f3e">
+  <title>Loti Easy | Accessible banking demo</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <div class="heritage-background" aria-hidden="true"><div class="heritage-photo heritage-left"></div><div class="heritage-photo heritage-right"></div></div>
+  <a class="skip" href="#main">Skip to main content</a>
+  <header class="top"><div class="brand"><span class="mountain-mark" aria-hidden="true">⌃</span><span>Loti Easy<small>Banking Made Simple</small></span></div><span class="tag">EDUCATIONAL DEMO</span></header>
+  <div class="notice" role="note">DEMO ONLY — NO REAL BANKING. No real accounts, money transfers, PINs or fingerprints.</div>
+  <div class="layout">
+    <main id="main" tabindex="-1" class="panel" aria-live="polite"></main>
+    <aside class="tools" aria-label="Display and research controls">
+      <h2>Display settings</h2>
+      <label class="switch"><input id="largeText" type="checkbox" checked> Extra-large text</label>
+      <label class="switch"><input id="highContrast" type="checkbox"> High contrast</label>
+      <label for="language">Language</label>
+      <select id="language"><option value="en">English</option><option value="st">Sesotho (partial demo)</option></select>
+      <p class="hint">Sesotho labels are illustrative and require review by local speakers before field testing.</p>
+      <hr>
+      <h2>Researcher mode</h2>
+      <label class="switch"><input id="researchMode" type="checkbox"> Enable observation panel</label>
+      <section id="researchPanel" hidden aria-label="Usability observation">
+        <p class="hint">Use anonymous participant IDs only. Data stays in this browser tab until you export or reset it.</p>
+        <label for="participant">Participant ID (no names)</label><input id="participant" maxlength="30" placeholder="e.g. P01" autocomplete="off">
+        <label for="order">Test order</label><select id="order"><option value="AB">Code first, then biometric</option><option value="BA">Biometric first, then code</option></select>
+        <button id="startTest" type="button" class="secondary">Start new test</button>
+        <p id="testStatus" class="hint" role="status">No active test.</p>
+        <label for="assistance">Assistance needed</label><select id="assistance"><option value="none">None</option><option value="some">Some</option><option value="unable">Unable to complete</option></select>
+        <label for="ease">Ease rating (1 difficult – 5 easy)</label><select id="ease"><option value="">Not rated</option><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option></select>
+        <label for="understood">Understood verification?</label><select id="understood"><option value="unknown">Not assessed</option><option value="yes">Yes</option><option value="no">No</option></select>
+        <button id="saveTrial" type="button" class="secondary">Save current trial</button>
+        <label for="preference">Preferred version</label><select id="preference"><option value="">Not asked</option><option value="code">Code</option><option value="biometric">Biometric</option><option value="neither">Neither</option><option value="no-preference">No preference</option></select>
+        <button id="exportCsv" type="button" class="secondary">Export results CSV</button>
+        <button id="clearData" type="button" class="danger">Clear research data</button>
+        <p id="recordCount" class="hint" role="status">0 saved trials.</p>
+      </section>
+    </aside>
+  </div>
+  <footer>Made for accessibility research in Lesotho · Loti Easy · Not affiliated with a bank<br><span class="photo-credit">Illustrative AI-generated Basotho portraits; not real customers.</span></footer>
+</body>
+</html>
